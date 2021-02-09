@@ -12,7 +12,7 @@ for item in data[0]:
   labels = []
   sizes = []
 
-  notallowed = ["nid","uuid","vid","langcode","type","revision_timestamp","revision_uid","revision_log","uid","status","title","created","changed","promote","sticky","revision_translation_affected","moderation_state","content_translation_source","content_translation_outdated","body","field_articles_media","field_disappearance_date","field_height","field_location","field_monolith_image","field_multiple_monoliths","field_notes","field_related_monoliths","field_spotted_date","field_text_symbols"]
+  notallowed = ["nid","uuid","vid","langcode","type","revision_timestamp","revision_uid","revision_log","uid","status","title","created","changed","promote","sticky","revision_translation_affected","moderation_state","content_translation_source","content_translation_outdated","body","field_articles_media","field_disappearance_date","field_height","field_location","field_monolith_image","field_multiple_monoliths","field_notes","field_related_monoliths","field_spotted_date","field_text_symbols","defualt_langcode"]
 
   if item is item in notallowed:
     continue;
